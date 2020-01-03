@@ -58,8 +58,8 @@ levels(n_pop$UF) <- c("RO","AC","AM","RR","PA","AP","TO","MA","PI","CE","RN","PB
 # Calcula o fator de expansao por UF
 
 fator <- merge(n_pop, n_amostra, by = "UF") %>% 
-  mutate(Fator = N_pop/N_amostra) %>%
-  select(UF, Fator)
+               mutate(Fator = N_pop/N_amostra) %>%
+               select(UF, Fator)
 
 # Insere o fator de expansao na PPH
 
