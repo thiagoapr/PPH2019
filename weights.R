@@ -1,5 +1,5 @@
 
-## An·lise exploratoria para o calculo dos pesos amostrais
+## An√°lise exploratoria para o calculo dos pesos amostrais
 
 #--------------------------------------------------------------------------------
 
